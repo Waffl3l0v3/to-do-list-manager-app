@@ -36,7 +36,7 @@ cd to-do-list-manager-app
 Create a `.env` file inside the `server/` directory:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/todo-manager
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/e-commerce-app?retryWrites=true&w=majority
 PORT=5000
 ```
 
